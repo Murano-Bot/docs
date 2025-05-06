@@ -6,8 +6,12 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'MuranoDocs',
+			social: [
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/Murano-Bot' },
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/' },
+				{ icon: 'blueSky', label: 'BlueSky', href: 'https://bsky.app/profile/yamainu.xyz' },
+			],
 			sidebar: [
 				{
 					label: 'Guides',
